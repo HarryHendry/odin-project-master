@@ -4,3 +4,5 @@ HTML
 * use paragraphs and headings *
 * work with lists and list items *
 * work with links and images *
+* know how to work with git and github *
+* build a simple recipes page *
