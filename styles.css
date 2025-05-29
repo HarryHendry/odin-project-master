@@ -1,18 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 * {
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
     list-style-type: none;
-    background-color:slategrey;
-    color: antiquewhite;
+    margin: 0;
+    padding: 0;
 }
+
+
+
+/* Navbar */
 
 #navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
-    border-bottom: 2px solid antiquewhite;
-    margin-bottom: 50px;
+    padding: 20px 150px;
+   
+   
+    background-color: #1f2937;
 }
 
 #navbar ul {
@@ -20,7 +28,60 @@
 
 }
 
-#navbar ul li {
-    margin: 0 30px;
+#navbar ul li a {
+    margin: 0 0 0 30px;
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
 }
 
+/* hero section */
+
+#hero {
+    background-color: #1f2937;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 150px;
+    
+    
+}
+
+#hero button {
+    background-color: #3382f6;
+    border: none;
+    color: #f9faf8;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+.hero-title {
+height: 240px;
+width: 500px;
+color: #f9faf8;
+margin: 10px;
+}
+
+.hero-title h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-title p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 15px;
+}
+
+.hero-placeholder {
+    background-color: #e5e7eb;
+height: 240px;
+width: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px;
+}
+
+/* information section */
